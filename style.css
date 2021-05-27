@@ -1,0 +1,335 @@
+img {
+    max-width: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* nav bar section */
+
+.nav-heading .navbar-brand {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nav-heading span {
+    display: inline-block;
+    background: #6278df;
+    color: white;
+    text-align: center;
+    width: 30px;
+    border-radius: 10px;
+}
+
+
+/* slider section  */
+
+.slider-section {
+    background-image: url(img/mbr-10.jpg);
+    padding: 150px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.384);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.slider-caption h4 {
+    font-size: 20px;
+}
+
+.slider-caption h1 {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.slider-caption .btn {
+    padding: 12px 0px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.slider-caption .form-control {
+    padding: 18px 20px;
+}
+
+.slider-caption .btn:hover {
+    background-color: white;
+    color: #6278df;
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+
+/* counter-section */
+
+.counter-section {
+    padding: 100px 0;
+}
+
+.counter-section h1 {
+    font-size: 4rem;
+}
+
+.counter-section span {
+    font-size: 20px;
+    color: #988c8c;
+}
+
+
+/* Health-text-section */
+
+.health-text-section {
+    padding: 50px 0;
+    background: #f7f9ff;
+}
+
+.health-text-left {
+    margin-top: 116px;
+}
+
+.health-text-left h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.health-text-left .lead {
+    font-size: 22px;
+    line-height: 2.4rem;
+}
+
+
+/* health-blog-section */
+
+.health-blog-content {
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+    transition: all 0.3s;
+}
+
+.blog-img-left {
+    width: 45%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.blog-content-right {
+    width: 54%;
+}
+
+.blog-img-left img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -100px;
+}
+
+.blog-content-right h3 {
+    font-size: 1.5rem;
+}
+
+.blog-content-right p {
+    font-size: 16px;
+}
+
+
+/* portfolio section */
+
+.portfolio-img {
+    position: relative;
+}
+
+.portfolio-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #6279df8e;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.portfolio-img:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* priceing section */
+
+.priceing-section {
+    background: #e1e4ea80;
+}
+
+.priceing-item {
+    background: #fff;
+    padding: 15px 50px;
+    box-shadow: 0px 0px 18px 0px #7a788c;
+}
+
+.priceing-item h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.priceing-item h3 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.priceing-item ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.priceing-item ul li {
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.priceing-item ul li span {
+    display: inline-block;
+    color: #6278df;
+    font-size: 26px;
+    margin-right: 4px;
+}
+
+.priceing-btn .btn {
+    padding: 10px 45px;
+    font-size: 23px;
+    margin-top: 10px;
+    color: #6278df;
+}
+
+.priceing-item:hover .priceing-btn .btn {
+    background: #6278df;
+    color: #fff;
+}
+
+
+/* feedback-section */
+
+.feedback-section span {
+    font-size: 70px;
+    color: #00000029;
+}
+
+.feedback-section p {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.user-info {
+    width: 300px;
+}
+
+.user-info img {
+    width: 100px;
+}
+
+.user-img {
+    width: 25%;
+}
+
+.user-text {
+    width: 70%;
+}
+
+.user-text h3 {
+    font-size: 20px;
+}
+
+.user-text h5 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+/* team-section */
+
+.team-section {
+    background: #e1e4ea80;
+}
+
+.team-info-section {
+    padding-top: 120px;
+}
+
+.team-info-section img {
+    margin-top: -68px;
+    margin-left: 20px;
+}
+
+.team-info-section p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.team-info-section a.btn:hover {
+    background: black;
+    color: #FFF;
+}
+
+
+/* form-section */
+
+.form-section .btn {
+    background: #6279df;
+    color: white;
+    transition: .5s;
+}
+
+.form-section .btn:hover {
+    color: #6279df;
+    background: #fff;
+}
+
+
+/* footer section */
+
+footer {
+    background: #ddd;
+    padding: 10px 0;
+}
+
+.col.footer-text h3 {
+    line-height: 38px;
+}
+
+.col.footer-text h3 {
+    line-height: 37px;
+    font-size: 18px;
+}
+
+.footer-content h1 {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.footer-content .btn {
+    padding: 13px 59px;
+}

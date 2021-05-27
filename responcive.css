@@ -1,0 +1,250 @@
+    /* defoult css start  */
+    
+    .mobile-menu span {
+        color: blue !important;
+        background: #fff;
+    }
+    /* defoult css end  */
+    
+    @media (min-width: 992px) and (max-width: 1500px) {
+        .slider-caption .form-control {
+            padding: 18px 20px;
+            margin-bottom: 15px;
+        }
+    }
+    
+    @media (min-width: 992px) and (max-width: 1200px) {}
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        .slider-caption h4 {
+            font-size: 18px;
+        }
+        .slider-caption h1 {
+            font-weight: 600;
+            font-size: 36px;
+        }
+        .col-lg-3.counter-content {
+            width: 25%;
+        }
+        .slider-caption .form-control {
+            padding: 18px 20px;
+            margin-bottom: 15px;
+        }
+        .counter-section h1 {
+            font-size: 2.9rem;
+        }
+        .counter-section span {
+            font-size: 14px;
+        }
+        .health-text-left {}
+        .health-text-left h1 {
+            font-size: 28px;
+        }
+        .health-text-left .lead {
+            font-size: 16px;
+        }
+        .blog-content-right h3 {
+            font-size: 21px;
+        }
+        .price-heading h1 {
+            font-size: 40px;
+        }
+        .price-heading p {
+            font-size: 19px;
+        }
+        .priceing-item h1 {
+            font-size: 35px;
+            margin-bottom: 25px;
+        }
+        .priceing-item h3 {
+            font-size: 23px;
+            font-weight: 300;
+        }
+        .priceing-item ul li {
+            font-size: 17px;
+        }
+        .priceing-item ul li span {
+            font-size: 21px;
+        }
+        .priceing-btn .btn {
+            font-size: 18px;
+        }
+        .feedback-content h1 {
+            font-size: 34px;
+            font-weight: 400;
+        }
+        .feedback-section span {
+            font-size: 60px;
+        }
+        .feedback-section p {
+            font-size: 24px;
+        }
+        .col.team-head h1 {
+            font-size: 35px;
+            font-weight: 400;
+        }
+        .team-title p {
+            font-size: 19px;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .slider-caption .form-control {
+            padding: 12px 18px;
+        }
+        .btn.btn-lg.btn-success {
+            padding: 12px 52px;
+            font-size: 20px;
+        }
+        .slider-section {
+            padding: 60px 0px;
+        }
+        .counter-section span {
+            font-size: 18px;
+            margin-bottom: 15px;
+            display: block;
+        }
+        .health-text-left h1 {
+            font-size: 28px;
+        }
+        .health-text-left .lead {
+            font-size: 19px;
+        }
+        .health-blog-header.text-center h1 {
+            font-size: 30px;
+            font-weight: 400;
+            margin-bottom: 18px;
+        }
+        .health-blog-header.text-center h4 {
+            font-size: 18px;
+        }
+        .price-heading.text-center h1 {
+            font-size: 38px;
+            font-weight: 400;
+        }
+        .price-heading.text-center p {
+            font-size: 18px;
+        }
+        .priceing-item h1 {
+            font-size: 37px;
+        }
+        .priceing-item h3 {
+            font-size: 23px;
+        }
+        .priceing-item ul li {
+            font-size: 20px;
+        }
+        .priceing-item ul li span {
+            font-size: 21px;
+        }
+        .priceing-btn .btn {
+            font-size: 20px;
+        }
+        .feedback-content h1 {
+            font-size: 25px;
+            font-weight: 400;
+        }
+        .feedback-section p {
+            font-size: 20px;
+            font-weight: 200;
+        }
+        .feedback-section span {
+            font-size: 50px;
+        }
+        .team-head h1 {
+            font-size: 29px;
+            font-weight: 400;
+        }
+        .team-title p {
+            font-size: 17px;
+            line-height: 2rem;
+        }
+        .contact-header h4 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .contact-header h1 {
+            font-size: 24px;
+        }
+        .footer-content h3 {
+            font-size: 21px;
+            font-weight: 300;
+        }
+        .footer-content h1 {
+            font-size: 29px;
+            font-weight: 300;
+        }
+        .btn.btn-lg.btn-success {
+            padding: 12px 52px;
+        }
+        .col.footer-text h3 {
+            font-size: 20px;
+        }
+        .btn.btn-lg.btn-success span {
+            font-size: 20px;
+        }
+    }
+    
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .slider-caption h1 {
+            font-weight: 600;
+            font-size: 38px;
+        }
+        .slider-caption .form-control {
+            padding: 12px 18px;
+            margin-bottom: 12px;
+        }
+        .counter-section h1 {
+            font-size: 3rem;
+        }
+        .health-text-left {
+            margin-top: 61px;
+        }
+        .health-text-left h1 {
+            font-size: 20px;
+        }
+        .health-text-left .lead {
+            font-size: 15px;
+        }
+        .health-blog-header.text-center h1 {
+            font-size: 22px;
+        }
+        .health-blog-header.text-center h4 {
+            font-size: 15px;
+        }
+        .price-heading.text-center h1 {
+            font-size: 27px;
+        }
+        .price-heading.text-center p {
+            font-size: 15px;
+        }
+        .feedback-content h1 {
+            font-size: 20px;
+        }
+        .team-head h1 {
+            font-size: 29px;
+            margin-bottom: 20px !important;
+        }
+        .team-info-section p {
+            font-size: 15px;
+        }
+        .form input {
+            font-size: 16px;
+        }
+        .footer-content h3 {
+            font-size: 19px;
+        }
+        .footer-content h1 {
+            font-size: 24px;
+        }
+        .btn.btn-lg.btn-outline-success span {
+            font-size: 15px;
+        }
+        .btn.btn-lg.btn-success span {
+            font-size: 15px;
+        }
+        .col.footer-text h3 {
+            font-size: 16px;
+            line-height: 41px;
+        }
+    }
